@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero_section {
+    background-image: url(./images/m3.JPG);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_container {
+    color: white;
+    text-align: center;
+}
+
+.lg_text {
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.black_box {
+    padding: 20px;
+    background-color: #000;
+    text-align: center;
+}
+
+.black_box h2 {
+    font-size: 48px;
+    font-weight: 300;
+    color: white;
+}
+
+.black_box h2 span {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.work {
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    max-width: 320px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.1);
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 10px 15px rgba(1, 1, 1, 0.2);
+}
+
+.card-content {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    letter-spacing: 1.1px;
+    margin: 0;
+}
+
+.bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-me, .about-me {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1 1 300px;
+}
+
+.contact-me {
+    background-color: #3d9970;
+}
+
+.about-me {
+    background-color: #85144b;
+}
+
+.contact-me h2, .about-me h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1.7px;
+}
+
+.contact-me p, .about-me p {
+    font-size: 1rem;
+    padding: 10px 10px;
+    font-weight: 300;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-me:hover, .about-me:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 10px 15px rgba(1, 1, 1, 0.2);
+}
+
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+}

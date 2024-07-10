@@ -26,7 +26,7 @@ This project is a simple, yet elegant landing page showcasing the skills, work, 
 
 ## Demo
 
-You can view the live demo of the landing page [here](#).
+You can view the live demo of the landing page [here](#https://sokandesujal.github.io/Landing-Page/).
 
 ## Installation
 
@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your_username/landing-page-project.git
+   git clone https://github.com/sokandesujal/landing-page-project.git
    
 2.Open the index.html file in your web browser to view the landing page.
 
@@ -46,7 +46,7 @@ To get a local copy up and running follow these simple steps:
 ## Contact
 
 - Sujal Sokande - sokandesujal@gmail.com
-- LinkedIn: linkedin.com/in/sujal-sokande-1028a62b1
+- LinkedIn: (#[linkedin.com/in/sujal-sokande-1028a62b1](https://www.linkedin.com/in/sujal-sokande-1028a62b1/))
 
 ## License
 

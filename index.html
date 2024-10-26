@@ -5,72 +5,209 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page - Sujal Sokande</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css"
+    />
   </head>
   <body>
-    <section class="hero_section">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact Me</a>
+        <a href="#about" class="nav-link">About Me</a>
+      </div>
+    </nav>
+
+    <section class="hero_section" id="hero">
       <div class="text_container">
         <h2><span class="lg_text">Hi,</span> I am Sujal Sokande</h2>
-        <h1 class="lg_text">FULL STACK DEVELOPER</h1>
+        <h1 class="lg_text autoText"></h1>
       </div>
+      <script>
+        var typed = new Typed(".autoText", {
+          strings: [
+            "FULL STACK DEVELOPER",
+            "PROGRAMMER",
+            "AI/ML ENTHUSIAST",
+            "COMPETITIVE PROGRAMMER",
+            "UI/UX DESIGNER",
+            "WEB DEVELOPER",
+            "TECH INNOVATOR",
+          ],
+          typeSpeed: 150,
+          backSpeed: 150,
+          loop: true,
+        });
+      </script>
     </section>
 
-    <section class="black_box">
-      <h2>WORK, I CAN DO FOR <span>YOU</span></h2>
+    <section class="black_box" id="projects">
+      <h2>PROJ<span>ECTS</span></h2>
     </section>
 
-    <section class="work">
+    <div class="work" data-aos="fade-up">
       <div class="card">
         <div class="image-container">
-          <img src="images/web.png" alt="web development" />
+          <img
+            src="images/attendancetracker-online-.jpg"
+            alt="Attendance Tracking"
+            style="width: 320px; height: auto"
+          />
         </div>
         <div class="card-content">
-          <h3>WEB Development</h3>
+          <h3>Attendance Tracking Web Application</h3>
           <p>
-            I specialize in creating dynamic and responsive websites using the
-            latest technologies. From front-end design to back-end development,
-            I ensure your online presence stands out.
+            Developed a comprehensive web application to manage attendance for
+            over 4,000 students, ensuring compliance with the 80% attendance
+            rule.
           </p>
+          <a href="https://attendancetracker.online/" target="_blank"
+            >View Project</a
+          >
         </div>
       </div>
 
       <div class="card">
         <div class="image-container">
-          <img src="images/mobile.png" alt="application development" />
+          <img
+            src="images/uiux.png"
+            alt="IoT Security"
+            style="width: 320px; height: auto"
+          />
         </div>
         <div class="card-content">
-          <h3>APP Development</h3>
+          <h3>Advanced IoT Security & DDoS Detection</h3>
           <p>
-            Developing user-friendly and efficient mobile applications for both
-            Android and iOS platforms. I focus on creating apps that provide an
-            excellent user experience and high performance.
+            Architected a real-time cybersecurity system capable of detecting
+            DDoS attacks.
           </p>
+          <a href="https://github.com/your-repo" target="_blank"
+            >View Project</a
+          >
         </div>
       </div>
 
       <div class="card">
         <div class="image-container">
-          <img src="images/uiux.png" alt="UI UX Design" />
+          <img
+            src="images/Generative AI.png"
+            alt="Data Analysis"
+            style="width: 320px; height: auto"
+          />
         </div>
         <div class="card-content">
-          <h3>UI/UX Design</h3>
+          <h3>Generative AI for Cyber-Attack Detection</h3>
           <p>
-            Crafting intuitive and visually appealing user interfaces that
-            enhance the user experience. I focus on usability, aesthetics, and
-            functionality to create designs that users love.
+            Currently spearheading a project utilizing Generative Adversarial
+            Networks.
           </p>
+          <a href="https://github.com/your-repo" target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <section class="skills" id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <h3>C</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 100%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>C++</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Java</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Python</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>HTML</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 100%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>CSS</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>React</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 5%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Node.js</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 10%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Machine Learning</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Data Analysis</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="bottom-section">
-      <div class="contact-me">
+      <div class="contact-me" id="contact">
         <h2>Contact Me</h2>
         <p>
-          Contact me for opportunities in AI, data science, and web development.
-          I'm passionate about coding, problem-solving, and leveraging
-          technology to create impactful solutions. Let's connect and
-          collaborate!
+          I'm always eager to connect with fellow tech enthusiasts. If you're
+          looking for opportunities in AI, data science, or web development, I'd
+          love to hear from you!
         </p>
+        <form
+          action="mailto:sokandesujal@gmail.com"
+          method="POST"
+          enctype="text/plain"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p>Or reach me at:</p>
         <p>
           <a href="mailto:sokandesujal@gmail.com">sokandesujal@gmail.com</a>
         </p>
@@ -79,31 +216,29 @@
             >linkedin.com/in/sujal-sokande-1028a62b1</a
           >
         </p>
+        <p>Looking forward to connecting!</p>
       </div>
 
-      <div class="about-me">
+      <div class="about-me" id="about">
         <h2>About Me</h2>
         <p>
-          As a third-year diploma student at MIT WPU specializing in Computer
-          Science with a focus on Artificial Intelligence and Data Science, I am
-          passionate about technology and innovation. My strong skills in C,
-          C++, Java, Python, HTML, CSS, and competitive programming have enabled
-          me to excel academically and professionally.
+          I am a third-year diploma student at MIT WPU, specializing in Computer
+          Science with a focus on AI and Data Science.
         </p>
         <p>
-          My notable achievements include winning first place in the
-          university-level Ideathon Contest and the CTF (Capture the Flag)
-          event, competing against senior B.Tech students. I also served as an
-          event coordinator for Technophilia, a technological exhibition and
-          competition that showcases innovative student projects.
+          Some of my proudest achievements include winning first place in the
+          university-level Ideathon Contest.
         </p>
         <p>
-          I am eager to connect with professionals and explore opportunities in
-          the tech industry to apply my skills and contribute to impactful
-          projects.
+          I'm eager to connect with professionals in the tech industry to drive
+          innovation!
         </p>
       </div>
     </section>
-    <footer>Project By Sujal Sokande</footer>
+    <footer class="made">Project By Sujal Sokande</footer>
+
+    <script>
+      AOS.init(); // Initialize AOS for scroll animations
+    </script>
   </body>
 </html>
